@@ -1,0 +1,13 @@
+INTRODUCTION
+This is an Unofficial My Basis Data Download interface.  The javascript functions in the UnoffBasis.html that fetch user profile information and fetch user data can be applied to other applications (the csv creation relies on the adobe air libraries).
+
+INSTALL
+This application has a self-signed certificate so the author will show up as unknown when attempting to install it.  I recommend you review the source code and build the application yourself if you are concerned with security.  To install the application you simply download the UnoffBasis.air file and run it with adobe air (http://get.adobe.com/air/).
+
+COMPILE
+To compile this application you will need the adobe air sdk installed (http://www.adobe.com/devnet/air/air-sdk-download.html).  After installing the adobe air application you will need to create a self-signed certificate with the following command:
+adt -certificate -cn SelfSigned 1024-RSA Cert.pfx samplePassword
+
+After creating the certificate you can now create the adobe air installation file.  Copy the test from the include_files.txt file and paste it into your terminal (if you changed the name of your Cert.pfx file above you will need to modify it for this to work).  After typing your password you should have a UnoffBasis.air file which you can install an run the application.  
+
+Go forth and download you data!
