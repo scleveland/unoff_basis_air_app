@@ -1,5 +1,5 @@
 INTRODUCTION
-This is an Unofficial My Basis Data Download interface.  The javascript functions in the UnoffBasis.html that fetch user profile information and fetch user data can be applied to other applications (the csv creation relies on the adobe air libraries).
+This is an Unofficial My Basis Data Download interface.  This is not endorsed by My Basis (Basis Science Inc) and is use at your own risk.  
 
 INSTALL
 This application has a self-signed certificate so the author will show up as unknown when attempting to install it.  I recommend you review the source code and build the application yourself if you are concerned with security.  To install the application you simply download the UnoffBasis.air file and run it with adobe air (http://get.adobe.com/air/).
@@ -10,4 +10,25 @@ adt -certificate -cn SelfSigned 1024-RSA Cert.pfx samplePassword
 
 After creating the certificate you can now create the adobe air installation file.  Copy the test from the include_files.txt file and paste it into your terminal (if you changed the name of your Cert.pfx file above you will need to modify it for this to work).  After typing your password you should have a UnoffBasis.air file which you can install an run the application.  
 
-Go forth and download you data!
+Go forth and download your data!
+
+
+The MIT License (MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
